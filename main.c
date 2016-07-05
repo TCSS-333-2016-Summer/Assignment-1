@@ -7,15 +7,15 @@
 #include "sort2.h"
 //add new header files for sort1 and sort2<-----
 
-#define VECTORSIZE 100000
+#define VECTORSIZE 500
 
 int compareVectors(int *vector1,int *vector2, int size);
 
 int main(){
-	int r,i,originalVector[VECTORSIZE],sortedVector[VECTORSIZE],testVector[VECTORSIZE];
+	int i,originalVector[VECTORSIZE],sortedVector[VECTORSIZE],testVector[VECTORSIZE];
 	/*seed random number*/
 	srand(1234);
-	clock_t start, diff;
+	clock_t start;
 	
  /*initialize random number*/
 	for (i=0;i<VECTORSIZE;i++)originalVector[i]=rand()%10000;

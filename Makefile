@@ -3,7 +3,7 @@ CC=gcc
 #linker
 LD=gcc
 #include file directory
-CFLAGS=-I. -std=c99
+CFLAGS=-I. -std=c99 -Wall
 #with most of the optimization flags on
 #CFLAGS=-I. -Ofast -std=c99 -fexpensive-optimizations -funroll-all-loops -ffast-math -finline-functions
 #linker rule
