@@ -7,7 +7,7 @@ Sort2 is the built-in qsort function provided by C. gcc uses a hybrid algorithm 
 
 ###Timings for array size 100000
 
-Method | Time | Time with optimise flags)
+Method | Time | Time with optimise flags
 :--- | ---: | ---: 
 Counting |<B>0.67 ms | <B>0.28 ms
 qsort |15.76 ms | 11.50 ms
@@ -15,7 +15,7 @@ Insertion |8129.36 ms | 1280.74 ms
 
 ###Timings for array size 500
 
-Method | Time | Time with optimise flags)
+Method | Time | Time with optimise flags
 :--- | ---: | ---: 
 Counting |0.180 ms | 0.143 ms
 qsort |<B>0.167 ms | 0.157 ms
